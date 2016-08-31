@@ -7,7 +7,7 @@ Extends the bootstrap-tour plugin by adding a spotlight window for steps. The or
 * Use a modified version of the BST plugin for a seemless integration.
 > Modified BST available in repo
 * Use BST events to control the Spotlight plugin.
-> Refer to the BST API docs for avaiable events. Use table below for available Spotlight events.
+> Refer to the BST API docs for avaiable events. Use table below for available Spotlight methods.
 
 ### Standalone Spotlight JS Fiddle http://jsfiddle.net/YenN4/23/
 
@@ -27,8 +27,8 @@ $(function() {
 * Argument 1: An array of Javascript Dom nodes. Not Jquery objects
 * Argument 2: Optional: Options to be used by the plugin. Refer to options table below.
 
-### Events
-| Event        | Descrption     |
+### Methods
+| Method        | Descrption     |
 | ------------- |:-------------:|
 | nextWindow      | Move the spotlight window to the next element |
 | prevWindow      | Move the spotlight window to the previous element |
